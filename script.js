@@ -21,7 +21,7 @@ function assignAnimal() {
             assignedAnimals[animal] = 1; // Assegna 1 volta
             assignedOnce.push(animal); // Aggiungi alla lista degli animali assegnati una sola volta
         });
-        document.getElementById("result").innerText = "Gli animali assegnati sono stati aggiornati (5 animali da 0 a 1).";
+       
         return;
     }
 
@@ -42,7 +42,7 @@ function assignAnimal() {
                 assignedAnimals[animal] = 2; // Assegna 2 volte
             });
 
-            document.getElementById("result").innerText = "2 animali da 0 sono stati assegnati e 2 da 1 sono stati assegnati a 2.";
+         
             return;
         }
     }
